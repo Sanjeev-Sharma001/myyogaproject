@@ -1,35 +1,19 @@
 {
-  "name": "sanjeev",
+  "name": "sanjeev-backend",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "main": "src/index.js",
-  "dependencies": {
-    "@emotion/react": "11.10.5",
-    "@emotion/styled": "11.10.5",
-    "@mui/base": "5.0.0-alpha.110",
-    "@mui/material": "5.11.0",
-    "@mui/system": "5.11.0",
-    "axios": "1.2.1",
-    "notistack": "2.0.8",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-scripts": "4.0.0"
-  },
-  "devDependencies": {
-    "@babel/runtime": "7.13.8",
-    "typescript": "4.1.3"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev":"nodemon app.js",
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
 }
