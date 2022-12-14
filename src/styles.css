@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin-top: 25px;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+}
+.form > h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 24px;
+}
+.form > label {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form > input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form > button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url(https://www.mensjournal.com/wp-content/uploads/mf/1280-meditate-yoga.jpg?w=1200&h=675&crop=1&quality=86&strip=all);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
